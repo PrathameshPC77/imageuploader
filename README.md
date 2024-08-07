@@ -27,27 +27,33 @@ The **Image Uploader** is a Django-based web application that allows users to up
 
 2. Navigate to the Project Directory
 
+   ```bash
    cd imageuploader
 
 3. Create and Activate a Virtual Environment
 
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 4. Install Dependencies
 
+   ```bash
    pip install -r requirements.txt
 
 5. Apply Database Migrations
 
+   ```bash
    python manage.py migrate
 
 6. Create a Superuser (Optional, for admin access)
 
+   ```bash
    python manage.py createsuperuser
 
 7. Run the Development Server
 
+   ```bash
    python manage.py runserver
 
 8. Access the Application
