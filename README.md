@@ -64,11 +64,13 @@ The **Image Uploader** is a Django-based web application that allows users to up
 Configuration
 
 `Database:` This project uses SQLite by default. You can configure a different database in settings.py if needed.
+
 `Media Files:` Ensure that the MEDIA_URL and MEDIA_ROOT are correctly set in settings.py to handle file uploads.
 
 Usage
 
 `Upload Images:` Go to the main page to upload an image.
+
 `View Images:` After uploading, images will be displayed on the page.
 
 Deployment
