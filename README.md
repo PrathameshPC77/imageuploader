@@ -27,32 +27,32 @@ The **Image Uploader** is a Django-based web application that allows users to up
 
 2. Navigate to the Project Directory
 
-cd imageuploader
+   cd imageuploader
 
 3. Create and Activate a Virtual Environment
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 4. Install Dependencies
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 5. Apply Database Migrations
 
-python manage.py migrate
+   python manage.py migrate
 
 6. Create a Superuser (Optional, for admin access)
 
-python manage.py createsuperuser
+   python manage.py createsuperuser
 
 7. Run the Development Server
 
-python manage.py runserver
+   python manage.py runserver
 
 8. Access the Application
 
-Open your web browser and go to http://127.0.0.1:8000/ to access the application.
+   Open your web browser and go to http://127.0.0.1:8000/ to access the application.
 
 Configuration
 Database: This project uses SQLite by default. You can configure a different database in settings.py if needed.
